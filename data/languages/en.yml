@@ -1,0 +1,105 @@
+language_name:
+    local: "English"
+    english: "English"
+on_arrival:
+  introductions:
+    name: My name is Matthew
+    learning: I'm learning English
+    first_aid: I'm a First Aider
+    simple_answers: Please answer my questions with yes or no
+    translator: Can you translate from English?
+    find_translator: Can you find someone who can translate from English?
+  questions:
+    name: What is your name?
+    injuries: Are you injured?
+    illness: Do you feel unwell?
+    attack: Have you been attacked?
+    ambulance: Would you like me to call an ambulance?
+    previous: Has this happened before?
+    regular: Does this happen regularly?
+    medication: Do you take any regular medication?
+  basic_safety:
+    do_not_move: Don't move.
+    call_ambulance: Call an ambulance.
+    call_police: Call the police.
+    call_security: Call security.
+    dog: Keep the dog back.
+    lights: Turn on the lights.
+emergencies:
+  resuscitation:
+    bystander_compressions: Press hard on their chest twice every second.
+    swap_compressions: Can you take over chest compressions?
+    find_defib: Can you find out if a defibrillator or AED is available?
+  bleeding:
+    keep_pressure: Keep pressing on the wound.
+  choking:
+    question: Are you choking?
+    cough: Try and cough as hard as you can.
+  stroke:
+    face: Can you smile for me?
+    arms: Hold your arms out in front of you
+    speech: Can you tell me your date of birth?
+  seizure:
+    reassurance: You had a seizure, can you remember anything that happened?
+    epilepsy: Do you have epilepsy?
+  unconsciousness:
+    open_eyes: Open your eyes.
+symptom_specific:
+  pain:
+    in_pain: Are you in pain?
+    ten_scale: If 0 is no pain and 10 the worst pain imaginable, how severe is this pain?
+    duration: When did the pain start?
+    location: Where is the pain?
+    radiation: Does the pain move or radiate anywhere else in your body?
+    position: Is there a position you can be in which makes the pain better?
+    relief: Is there anything you can do to make the pain ease?
+    analgesic_already_taken: Have you taken any painkillers?
+    analgesic_time_ago: When did you take painkillers?
+    analgesic_effect: Did the painkillers have any effect?
+  headache:
+    injury: Have you injured your head today?
+    vision: Has your level of vision changed at all?
+  head_injury:
+    dizziness: Are you dizzy?
+    consciousness: Did you lose consciousness?
+  leg_injuries:
+    movement: Can you move your leg?
+    feeling: Can you feel me touching your leg?
+    weight_bear: Do you think you can weight-bear on the leg?
+  arm_injuries:
+    movement: Can you move your arm?
+    feeling: Can you feel me touching your arm?
+  diabetes:
+    history: Do you have diabetes?
+  respiratory:
+    copd: Do you have a history of COPD?
+    pulmonary_embolism: Do you have a history of pulmonary embolism?
+    smoker: Do you smoke?
+    injuries: Have you injured your chest recently?
+    asthma: Do you have asthma?
+    inhaler: Do you have an inhaler with you?
+  poisoning:
+    what: Can you show me what you have taken?
+    when: When did you take it?
+    how_much: How much of it did you take?
+    do_not_vomit: Don't make yourself vomit.
+  distress:
+    language: I'm sorry I don't speak English very well.
+    help: I'm trying to arrange some more help.
+    not_leaving: I won't leave until some more help arrives. 
+  hypothermia:
+    clothing: Do not remove your wet clothes.
+    alcohol: Don't drink alcohol.
+  meningitis:
+    rash: Do you have a rash?
+    glass: Do you have a clear glass I can use?
+    flu_symptoms: Do you have any flu-like symptoms?
+  allergies:
+    epipen: Do you have an epi-pen?
+    use_epipen: Do you need help to use your epi-pen?
+    histroy: Do you have any known allergies?
+    exposure: Have you eaten anything different from normal today?
+next_steps:
+  ambulance:
+    coming: An ambulance has been called. Help will be here soon.
+    guide: Can you please meet the ambulance, and show them the way here?

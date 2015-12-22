@@ -1,0 +1,8 @@
+---
+title: Choose a Language 
+---
+%p.lead Choose your language
+%ul.list-group
+  - data.languages.each do |language_code, language_data|
+    %li.list-group-item
+      = link_to language_data.language_name.local, "/#{language_code}/"

@@ -1,0 +1,7 @@
+---
+title: Choose Patient Language 
+---
+%ul.list-group
+  - data.languages.each do |language_code, language_data|
+    %li.list-group-item
+      = link_to language_data.language_name.local, "#{language_code}.html"

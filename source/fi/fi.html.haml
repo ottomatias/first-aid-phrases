@@ -1,0 +1,35 @@
+---
+title: Finnish Emergency Phrases
+---
+.container
+  %ul.list-group
+    - data.languages.fi.except(:language_name).each do |topic, value|
+      %li.list-group-item{"data-jump-to" => "topic-#{topic}"}
+        %a{:href => "#topic-#{topic}"}
+          = topic.titleize
+  - data.languages.fi.except(:language_name).each do |topic, phrases|
+    %h3.list-heading{:id => "topic-#{topic}"}= topic.titleize
+    %ul.list-group
+      - data.languages.fi.except(:language_name).send(topic).each do |phrase_group, value|
+        %li.list-group-item{"data-jump-to" => "group-#{phrase_group}"}
+          %a{:href => "#group-#{phrase_group}"}
+            = phrase_group.titleize
+  %h2 Phrases
+  - data.languages.fi.except(:language_name).each do |group, subgroups|
+    %h3.list-heading= group.titleize
+    - subgroups.each do |subgroup, phrases|
+      %h4.list-heading{:id => "group-#{subgroup}"}= subgroup.titleize
+      %ul.list-group
+        - phrases.each do |heading, value|
+          %li.list-group-item
+            %a.translation_link{"data-target" => "#phrase_modal", "data-toggle" => "modal", "data-translation" => data.languages.fi.except(:language_name).send(group).send(subgroup).send(heading)}
+              = value
+#phrase_modal.modal.fade{:role => "dialog", :tabindex => "-1"}
+  .modal-dialog
+    .modal-content
+      .modal-body
+        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+          %span{"aria-hidden" => "true"} ×
+        %p#phrase_body.lead
+      .modal-footer
+        %button.btn.btn-primary{"data-dismiss" => "modal", :type => "button"} Close
