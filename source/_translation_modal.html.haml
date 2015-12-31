@@ -1,0 +1,9 @@
+#phrase_modal.modal.fade{:role => "dialog", :tabindex => "-1"}
+  .modal-dialog
+    .modal-content
+      .modal-body
+        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+          %span{"aria-hidden" => "true"} ×
+        %p#phrase_body.lead
+      .modal-footer
+        %button.btn.btn-primary{"data-dismiss" => "modal", :type => "button"} Close

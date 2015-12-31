@@ -28,4 +28,6 @@
           %ul.nav.navbar-nav
             %li
               = link_to "Change Languages", "/"
-    = yield
+    .container
+      = yield
+    = partial 'translation_modal'
