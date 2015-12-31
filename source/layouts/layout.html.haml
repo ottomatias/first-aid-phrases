@@ -7,13 +7,12 @@
     / Always force latest IE rendering engine or request Chrome Frame
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
     / Use title if it's in the page YAML frontmatter
-    %title
-      = current_page.data.title
-      The Emergency Phrasebook
+    %title= "#{current_page.data.title} - First Aid Phrasebook"
     = stylesheet_link_tag "normalize", "all"
     = javascript_include_tag  "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js", "all"
     = partial "layouts/icons"
   %body{:class => page_classes}
+    = partial "layouts/analytics"
     %nav.navbar.navbar-default.navbar-fixed-top
       .container-fluid
         .navbar-header
