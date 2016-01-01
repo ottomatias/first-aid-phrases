@@ -21,5 +21,5 @@ title: Finnish Emergency Phrases
     %ul.list-group
       - phrases.each do |heading, value|
         %li.list-group-item
-          %a.translation_link{"data-target" => "#phrase_modal", "data-toggle" => "modal", "data-translation" => data.languages.en.except(:language_name).send(group).send(subgroup).send(heading)}
+          %a.translation_link{id: [group, subgroup, heading].join("-"), "data-target" => "#phrase_modal", "data-toggle" => "modal", "data-translation" => data.languages.en.except(:language_name).send(group).send(subgroup).send(heading)}
             = value
