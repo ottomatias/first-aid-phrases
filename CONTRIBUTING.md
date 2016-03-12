@@ -24,7 +24,8 @@ translation, there's a simply a single file you need to create;
    knowledge if the language in question has checked the translation
 
 **Adding a phrase**
-We will start phrases with an issue, as this is a good way to discuss them.
+If you have a phrase idea, [create an issue](https://github.com/mtthwhggns/first-aid-phrases/issues/new), 
+as this is a good way to discuss them.
 Please suggest your new phrase, and give a little background to why you think
 it's useful.
 
