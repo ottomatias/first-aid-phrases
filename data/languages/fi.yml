@@ -7,17 +7,17 @@ on_arrival:
     learning: Opettelen Suomea # I'm learning Finnish
     first_aid: Annan ensiapua # I'm a First Aider TODO: Check if there's a word for this in Finnish
     simple_answers: Vastaa kyllä tai ei # Answer with yes or no 
-    translator: Voitko kääntää Englannista? # Can you translate from English?
-    find_translator: Voitko etsiä Englannin kääntäjän? # Can you find someone who can translate from English?
+    translator: Voitko kääntää englannista? # Can you translate from English?
+    find_translator: Voitko etsiä englannin kääntäjän? # Can you find someone who can translate from English?
   questions:
-    name: Mikä sinun nimi on? # What is your name?
+    name: Mikä sinun nimesi on? # What is your name?
     injuries: Oletko vahingoittunut? # Are you injured?
     illness: Oletko kipeä? # Are you unwell?
     attack: Onko kimppuusi hyökätty? # Have you been attacked?
     ambulance: Haluatko että soitan ambulanssin? # Would you like an ambulance?
     previous: Onko näin tapahtunut aikaisemmin? # Has this happened before?
     regular: Tapahtuuko näin usein? # Does this happen regularly?
-    medication: Syotko laakkeita # Do you take any regular medication?
+    medication: Syötkö laakkeita # Do you take any regular medication?
     regular: Tapahtuuko näin usein? # Does this happen regularly?
     medication: Onko sinulla lääkitystä? # Do you take any regular medication?
   basic_safety:
@@ -39,7 +39,7 @@ emergencies:
     cough: Yritä yskiä tosi voimakkaasti # Cough as hard as you can
   stroke:
     face: Voitko hymyillä? # Can you smile for me?
-    arms: Pidä sinun kädet edessäsi # Hold your arms out in front of you
+    arms: Pidä sinun kätesi edessäsi # Hold your arms out in front of you
     speech: Mikä on syntymäpäiväsi? # Can you tell me your date of birth?
   unconsciousness:
     open_eyes: Avaa silmät # Open your eyes
@@ -49,12 +49,12 @@ emergencies:
 symptom_specific:
   pain:
     in_pain: Onko sinulla kipua? # Are you in pain?
-    ten_scale: Yhdestä kymmeneen, kuinka kova on kipu? # From 1-10, how badis the pain?
+    ten_scale: Yhdestä kymmeneen, kuinka kova kipu on? # From 1-10, how badis the pain?
     duration: Milloin kipu alkoi? # When did the pain start?
     location: Missä kipu on? # Where is the pain?
     radiation: Säteileekö kipu missään muualla kehossa? # Does the pain move or radiate anywhere else?
     position: Helpottaako kipu jossain tietyssä asennossa? # Does a position help the pain?
-    relief: Onko mitään mikä helpottaa kipua # Does anything make the pain ease?
+    relief: Onko mitään, mikä helpottaa kipua # Does anything make the pain ease?
     analgesic_already_taken: Oletko käyttänyt särkylääkkeitä? # Have you taken painkillers?
     analgesic_time_ago: Milloin söit särkylääkkeitä? # When did you take painkillers?
     analgesic_effect: Auttoivatko särkylääkkeet kipuun? # Have the painkipers helped?
@@ -70,7 +70,7 @@ symptom_specific:
     weight_bear: Luuletko että voit seistä? # Do you think you can weight-bear on the leg? 
   arm_injuries:
     movement: Voitko liikuttaa kättäsi? # Can you move your arm?
-    feeling: Voitko tuntea minut koskettaa kätesi? # Can you feel me touching your arm>
+    feeling: Voitko tuntea minun koskettavan kättäsi? # Can you feel me touching your arm>
     feeling: Tunnetko kun kosketan jalkaasi? # Can you feel me touching your leg?
   diabetes:
     history: Onko sinulla diabetes? # Do you have diabetes?
@@ -79,7 +79,7 @@ symptom_specific:
     pulmonary_embolism: Onko sinulla keuhkoveritulppa? # Do you have a history of pulmonary embolism?
     smoker: Poltatko? # Do you smoke?
     injuries: Oletko loukannut rintakehäsi äskettäin? # Have you injured your chest recently?
-    asthma: Onko sinulla asthma? # Do you have asthma?
+    asthma: Onko sinulla astma? # Do you have asthma?
     inhaler: Onko sinulla astmapiippu? # Do you have an inhaler?
   poisoning:
     what: Voitko näyttää minulle, mitä olet syönyt? # Can you show me what you've taken?
@@ -87,7 +87,7 @@ symptom_specific:
     how_much: Kuinka paljon sitä sinä söit? # How much of it did you take?
     do_not_vomit: Älä oksenna # Don't make yourself vomit.
   distress:
-    language: Anteeksi, en puhu hyvin Suomea # I'm sorry I don't speak Finnish very well.
+    language: Anteeksi, en puhu hyvin suomea # I'm sorry I don't speak Finnish very well.
     help: Olen järjestämässä apua # I'm trying to arrange some more help.
     not_leaving: Olen kanssasi kunnes apu saapuu # I won;t leave until more help arrives.
   hypothermia:
@@ -105,4 +105,4 @@ symptom_specific:
 next_steps:
   ambulance:
     coming: Ambulanssi on kutsuttu. Apu tulee olemaan täällä pian. # An ambulance has been called. Help will be here soon.
-    guide: Mene tapaamaan ambulanssi kiitos. # Can you meet the ambulance crew please?
+    guide: Mene tapaamaan ambulanssihenkilöstöä, kiitos. # Can you meet the ambulance crew please?
